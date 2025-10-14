@@ -3,5 +3,18 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
+  },
+  // 将 Prettier 设置为默认格式化工具
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 保存时自动格式化
+  "editor.formatOnSave": true,
+  // 忽略文件的格式化（与 .prettierignore 配合）
+  "prettier.ignorePath": ".prettierignore",
+  // 确保 Expo 相关文件（如 .js, .jsx）被正确格式化
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
   }
 }

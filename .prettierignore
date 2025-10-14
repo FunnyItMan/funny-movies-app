@@ -1,0 +1,15 @@
+# 依赖目录
+node_modules/
+.expo/
+dist/
+build/
+
+# 配置文件
+app.json
+app.config.js
+eas.json
+
+# 其他
+*.md
+*.lock
+*.log
