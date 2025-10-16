@@ -1,12 +1,8 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 const Home = () => {
-  return (
-    <View>
-      <Text className='text-red-400'>Home</Text>
-    </View>
-  )
-}
+    return <View className="flex-1 px-4"></View>;
+};
 
 export default Home;
