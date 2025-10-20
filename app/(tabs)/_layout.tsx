@@ -5,13 +5,11 @@ import { Ionicons } from '@expo/vector-icons';
 
 const TabLayout = () => {
     return (
-        <Tabs
-            screenOptions={{ tabBarInactiveTintColor: '#A8A8A8', tabBarActiveTintColor: '#E63946' }}
-        >
+        <Tabs screenOptions={{ headerTitleAlign: 'center', tabBarActiveTintColor: '#E63946' }}>
             <Tabs.Screen
                 name="index"
                 options={{
-                    title: 'Home',
+                    title: '首页',
                     tabBarIcon: ({ focused, color, size }) => (
                         <Ionicons
                             name={focused ? 'home-sharp' : 'home-outline'}
@@ -24,7 +22,7 @@ const TabLayout = () => {
             <Tabs.Screen
                 name="search"
                 options={{
-                    title: 'Search',
+                    title: '搜索',
                     tabBarIcon: ({ focused, color, size }) => (
                         <Ionicons
                             name={focused ? 'search-sharp' : 'search-outline'}
@@ -37,7 +35,7 @@ const TabLayout = () => {
             <Tabs.Screen
                 name="profile"
                 options={{
-                    title: 'Profile',
+                    title: '我的',
                     tabBarIcon: ({ focused, color, size }) => (
                         <Ionicons
                             name={focused ? 'person-sharp' : 'person-outline'}
