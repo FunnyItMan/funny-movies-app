@@ -3,6 +3,8 @@ node_modules/
 .expo/
 dist/
 build/
+android/
+ios/
 
 # 配置文件
 app.json
